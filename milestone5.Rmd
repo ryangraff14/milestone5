@@ -1,0 +1,14 @@
+---
+title: "Milestone 5"
+author: "Ryan Graff"
+date: "October 18, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# About
+
+In the summer of 2019, the NBA’s New Orleans Pelicans traded Anthony Davis to the Los Angeles Lakers.  In return, the Los Angeles Lakers sent the Pelicans Lonzo Ball, Brandon Ingram, Josh Hart, and three first round picks.  This was considered a massive, blockbuster deal. But was it a good trade?  Anthony Davis is a legitimate superstar, with superstar stats to back it up.  Meanwhile, Ball, Ingram, and Hart all have the stats of decent NBA players and appropriately are nightly rotation-worthy players.  But how much value do those first round picks have?  Do they tilt the deal in favor of the Lakers? Or the Pelicans?  What if one of those picks is the first overall pick? Or a guaranteed lottery pick (picks 1-14)? These are the questions my project is able to answer.  By utilizing the stats (ppg, shooting percentage, win shares, VORP, which come from BasketballReference.com) of every single draft pick since the onset of the modern NBA (1987, the last time Bird played Magic in the NBA Finals), I am determining the value of a draft pick across numerous statistical metrics, from lottery picks to late second-rounders.  But in order to help NBA fans determine the relative values of these picks, I am also using the nbastatR package to get current NBA player stats (similar to those of the draft picks).  With this data, users can determine the value of current NBA players in terms of draft picks.  Users can even become their very own NBA General Manager, putting players on each side of a trade deal, and then determining which side gets more value of the deal, once again across various statistical metrics (Ignoring the CBA, NBA league rules, and other regulations about trades of course, because those are no fun).  Now find your favorite players and have at it!  
